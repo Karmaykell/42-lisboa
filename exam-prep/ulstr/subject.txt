@@ -1,0 +1,18 @@
+Assignment name  : ulstr
+Expected files   : ulstr.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Escreva um programa que recebe uma string e inverte a caixa de cada letra
+(maiúscula vira minúscula e vice-versa), mostrando o resultado seguido de uma
+quebra de linha. Os outros caracteres ficam iguais.
+
+Se o número de parâmetros não for 1, o programa mostra apenas uma quebra de
+linha.
+
+Exemplos:
+
+$> ./ulstr "L'eSPRIT n'Est pAs un vASe a rEMpLIr mAIs un Feu a alLUmER" | cat -e
+l'Esprit N'eST PaS UN VasE A RemPliR MaiS UN fEU A ALluMer$
+$> ./ulstr | cat -e
+$

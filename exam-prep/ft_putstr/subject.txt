@@ -1,0 +1,10 @@
+Assignment name  : ft_putstr
+Expected files   : ft_putstr.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Escreva uma função que mostre uma string na saída padrão.
+
+A sua função deve ser declarada da seguinte forma:
+
+void	ft_putstr(char *str);

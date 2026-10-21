@@ -1,0 +1,11 @@
+Assignment name  : ft_putnbr
+Expected files   : ft_putnbr.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Escreva uma função que mostre um número inteiro (com sinal) na saída padrão,
+sem usar printf.
+
+A sua função deve ser declarada da seguinte forma:
+
+void	ft_putnbr(int nb);

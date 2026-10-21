@@ -1,0 +1,16 @@
+Assignment name  : ft_range
+Expected files   : ft_range.c
+Allowed functions: malloc
+--------------------------------------------------------------------------------
+
+Escreva uma função que aloca e devolve um array de inteiros contendo os
+valores de start até end, ambos incluídos.
+
+Se start for maior que end, o array deve ser decrescente (start, start-1,
+..., end).
+
+Se a alocação falhar, a função devolve NULL.
+
+A sua função deve ser declarada da seguinte forma:
+
+int	*ft_range(int start, int end);

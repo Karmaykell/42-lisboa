@@ -1,0 +1,40 @@
+Assignment name  : fizzbuzz
+Expected files   : fizzbuzz.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Escreva um programa que mostra os números de 1 a 100, um por linha.
+
+Se o número for múltiplo de 4, mostra 'fizz' em vez do número.
+Se o número for múltiplo de 7, mostra 'buzz' em vez do número.
+Se for múltiplo de 4 e de 7 ao mesmo tempo, mostra 'fizzbuzz'.
+
+O programa não recebe argumentos.
+
+Exemplo:
+
+$> ./fizzbuzz
+1
+2
+3
+fizz
+5
+6
+buzz
+fizz
+9
+10
+11
+fizz
+13
+buzz
+15
+fizz
+[...]
+27
+fizzbuzz
+29
+[...]
+buzz
+99
+fizz

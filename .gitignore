@@ -1,0 +1,9 @@
+# artefatos de build
+a.out
+*.o
+*.a
+# editores e sistemas (Linux + Mac)
+.DS_Store
+*.swp
+*~
+.vscode/

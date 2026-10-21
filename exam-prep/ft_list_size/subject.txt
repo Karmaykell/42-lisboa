@@ -1,0 +1,18 @@
+Assignment name  : ft_list_size
+Expected files   : ft_list_size.c
+Allowed functions: None
+--------------------------------------------------------------------------------
+
+Considerando o seguinte tipo, já definido em outro lugar:
+
+typedef struct s_list
+{
+	int				data;
+	struct s_list	*next;
+}	t_list;
+
+Escreva uma função que conta o número de elementos de uma lista encadeada.
+
+A sua função deve ser declarada da seguinte forma:
+
+int	ft_list_size(t_list *begin_list);

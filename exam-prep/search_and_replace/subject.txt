@@ -1,0 +1,24 @@
+Assignment name  : search_and_replace
+Expected files   : search_and_replace.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Escreva um programa chamado search_and_replace que recebe 3 argumentos: o
+primeiro é uma string na qual substituir, o segundo é o caractere a procurar e
+o terceiro é o caractere que o substitui. O resultado é mostrado seguido de
+uma quebra de linha.
+
+Se o número de argumentos não for 3, ou se o segundo ou o terceiro argumento
+não tiverem exatamente um caractere, o programa mostra apenas uma quebra de
+linha.
+
+Exemplos:
+
+$> ./search_and_replace "Papache est un sabre" "a" "o" | cat -e
+Popoche est un sobre$
+$> ./search_and_replace "zaz" "art" "u" | cat -e
+$
+$> ./search_and_replace "zaz" "z" "u" | cat -e
+uau$
+$> ./search_and_replace "jacob" "a" "b" "c" | cat -e
+$

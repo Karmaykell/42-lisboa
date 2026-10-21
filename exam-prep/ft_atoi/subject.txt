@@ -1,0 +1,16 @@
+Assignment name  : ft_atoi
+Expected files   : ft_atoi.c
+Allowed functions: None
+--------------------------------------------------------------------------------
+
+Reproduza o comportamento da função atoi (man atoi).
+
+A sua função deve:
+- ignorar os espaços em branco (espaço, tab, etc.) no início da string;
+- aceitar um sinal opcional (+ ou -) logo a seguir;
+- converter os dígitos seguintes num inteiro;
+- parar no primeiro caractere que não seja um dígito.
+
+A sua função deve ser declarada da seguinte forma:
+
+int	ft_atoi(const char *str);

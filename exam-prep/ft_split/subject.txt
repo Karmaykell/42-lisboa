@@ -1,0 +1,18 @@
+Assignment name  : ft_split
+Expected files   : ft_split.c
+Allowed functions: malloc
+--------------------------------------------------------------------------------
+
+Escreva uma função que separa uma string em palavras, usando espaço, tab ou
+quebra de linha como separadores (um ou mais separadores seguidos contam
+como um só).
+
+A função deve alocar e devolver um array de strings (cada uma também
+alocada), terminado por um ponteiro NULL.
+
+Se não houver nenhuma palavra, a função devolve um array só com o NULL
+final.
+
+A sua função deve ser declarada da seguinte forma:
+
+char	**ft_split(char *str);
